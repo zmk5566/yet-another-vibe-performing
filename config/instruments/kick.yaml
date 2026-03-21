@@ -1,0 +1,25 @@
+meta:
+  id: kick
+  type: drum
+  icon: "◉"
+
+dsp:
+  path: "dsp/instruments/kick.dsp"
+  osc_port: 9010
+
+parameters:
+  decay: 0.3
+  drive: 0.6
+  tone: 0.4
+  level: 0.8
+
+quick_control:
+  q: "decay+"
+  a: "decay-"
+  w: "drive+"
+  s: "drive-"
+  e: "tone+"
+  d: "tone-"
+  r: "level+"
+  f: "level-"
+  " ": "trigger"
